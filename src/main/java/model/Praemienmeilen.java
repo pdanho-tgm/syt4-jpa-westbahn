@@ -1,4 +1,6 @@
-public class Maestro implements Zahlung {
+package model;
+
+public class Praemienmeilen implements Zahlung {
 
 
 	/**

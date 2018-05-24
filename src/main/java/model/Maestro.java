@@ -1,4 +1,6 @@
-public class Kreditkarte implements Zahlung {
+package model;
+
+public class Maestro implements Zahlung {
 
 
 	/**

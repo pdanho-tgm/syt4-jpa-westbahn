@@ -1,4 +1,6 @@
-public class Praemienmeilen implements Zahlung {
+package model;
+
+public class Kreditkarte implements Zahlung {
 
 
 	/**
