@@ -1,7 +1,6 @@
 package model;
 
 import javax.persistence.*;
-import javax.validation.constraints.Future;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -43,7 +42,7 @@ public class Sonderangebot {
         return startZeit;
     }
 
-    public void setStartZeit(@Future Date startZeit) {
+    public void setStartZeit(Date startZeit) {
         this.startZeit = startZeit;
     }
 

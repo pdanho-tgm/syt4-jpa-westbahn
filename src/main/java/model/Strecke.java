@@ -1,7 +1,6 @@
 package model;
 
 import javax.persistence.*;
-import javax.validation.constraints.AssertTrue;
 
 @Entity
 @Table(
