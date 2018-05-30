@@ -6,6 +6,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Entity
+@NamedQuery(
+        name = "Benutzer.mitMonatskarte",
+        query = "SELECT b FROM Benutzer b LEFT JOIN b.tickets t WHERE t.typ=1" // Zeitkartentyp = 1 (MONATSKARTE)
+)
 public class Benutzer {
 	@Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

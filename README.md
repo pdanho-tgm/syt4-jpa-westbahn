@@ -1,2 +1,1 @@
 # Java Persistence API *Westbahn*
-
