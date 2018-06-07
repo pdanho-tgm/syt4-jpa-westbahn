@@ -5,16 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>pdanho</groupId>
-    <artifactId>Westbahnhof</artifactId>
-    <version>1.0</version>
-
-    <configuration>
-        <archive>
-            <manifest>
-                <addClasspath>true</addClasspath>
-            </manifest>
-        </archive>
-    </configuration>
+    <artifactId>westbahn</artifactId>
+    <version>1.0-SNAPSHOT</version>
 
     <dependencies>
         <dependency>
